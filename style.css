@@ -1,0 +1,83 @@
+h1{color : rgb(251, 255, 0)}
+h2{color : rgb(241, 0, 0)}
+h3{color : rgba(102, 255, 135, 0.911)}
+h4{color : rgb(255, 0, 200)}
+h5{color : rgb(255, 251, 0)}
+a{color: #00ff0d;}
+a:link{color: #00ff0d; }
+a:visited{color: #ffbb00; }
+p{color :  rgb(255, 255, 255)e;}
+
+hr{ border: 3px solid rgb(255, 255, 255);border-radius: 5px;width: 200;}
+
+
+
+.head{
+
+    text-align : center;
+
+}
+
+.mid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.mid img{border : solid rgb(41, 43, 197) ;border-radius: 50px;}
+
+.item{
+    position: relative;
+} 
+
+.item h2{
+    position : absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;   
+}
+
+.item:hover h2{
+    opacity: 1;
+
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.root{
+    position: relative;
+
+    padding-right: 150px;
+} 
+
+.root h2{
+    position : absolute;
+    top : 100%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    opacity: 0;   
+}
+
+.root:hover h2{
+    opacity: 1;
+
+}
+
+.root:hover img{
+    opacity: 0.33;
+}
+
+
+body{
+    background-image: url("images/backg.jpg");
+
+}
